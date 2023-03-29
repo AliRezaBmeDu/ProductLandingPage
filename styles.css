@@ -1,0 +1,47 @@
+@media (prefers-reduced-motion: no-preference) {
+  * {
+    scroll-behavior: smooth;
+  }
+}
+@media only screen and (max-width: 600px) {
+
+#nav-bar{
+  position: fixed;
+  top: 0;
+  margin: auto;
+  text-align: center;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  align-items: center;
+  padding-inline-start: 0;
+  margin-block: 0;
+  width: 100%;
+  background-color: brown;
+}
+.nav-link{
+  color: cyan;
+  text-decoration: none;
+}
+.nav-link:hover{
+  color: white;
+  background-color: black;
+}
+
+#casual,#formal{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+img{
+  width: 50px;
+}
+body{
+  background-color: burlywood;
+}
+.productimg{
+  width: 20px;
+  height: 20px;
+}
+
+}
